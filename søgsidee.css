@@ -1,0 +1,44 @@
+
+/* Styling af Zealand boksen i toppen af siden*/
+.zealandbox {
+    font-size: 10vw;
+    background-color: #fff386;
+    padding: 20px 20px;text-align: center;
+}
+
+
+/* Styling af søg feltet hvor man skriver */
+.search-button{
+        width: 300px; /* Adjust the width to make it bigger */
+        height: 70px; /* Adjust the height */
+        padding: 10px; /* Adds padding inside the box */
+        font-size: 16px; /* Makes the text larger */
+        border-radius: 5px; /* Rounds the corners of the box */
+        border: 2px solid #ccc; /* Adds a border */
+        box-sizing: border-box; /* Ensures padding is inside the box */
+}
+
+/* Styling af hvor man klikker for at søge (firkanten til højre for søgfeltet med et søg ikon i) */
+.search-button-icon{
+    width: 100px;
+    height: 80px;
+    background: #FFFEF9;
+    color: white;
+    cursor: pointer;
+}
+
+.search-field{
+    width: 300px; /* Adjust the width to make it bigger */
+    height: 70px; /* Adjust the height */
+}
+
+form.example button:hover {
+    background: #FFFEF9;
+}
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}

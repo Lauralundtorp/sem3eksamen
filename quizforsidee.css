@@ -1,0 +1,53 @@
+
+/* Styling af Zealand boksen i toppen af siden*/
+.box1 {
+    font-size: 10vw;
+    background-color: #fff386;
+    padding: 20px 20px;text-align: center;
+}
+
+
+
+/* Styling af Quiz boksen med hvid baggrund og orange border*/
+.box2 {
+    width: 500px;  /* Boksens bredde */
+    height: 120px; /* Boksens højde */
+    background-color: #FFFEF9; /* Boksens farve */
+    margin: 50px auto; /* Center the box */
+    text-align: center; /* Teksten placeres midt i boksen */
+    border:   4px solid #FFB68B;        /* Giver kanten grøn farve og px bestemmer kantens tykkelse  Fåt hjælp af denne side https://developer.mozilla.org/en-US/docs/Web/CSS/border */
+    color: #000000; /* Skrift farven */
+    border-radius: 30px;
+    font-size: 90px; /* Skrift størrelse */
+    margin-top: 230px; /* Placerer boksen længere nede, så der er mere luft til boksen over */
+}
+
+/* Styling af spørgsmålstegnbilledet*/
+.spørgsmålstegnbillede{
+    width: 700px;  /* Billedets bredde */
+    height: 700px; /* Billedets højde */
+    margin-left: 150px; /* Center the box */
+}
+
+
+/* Styling af teksten på første side (p-tagget)*/
+.tekstførstequizside{
+    font-size: 60px; /* Skrift størrelse */
+    font-family: "Tiro Bangla"; /* Font type */
+    text-align: center; /* Placerer teksten i midten af siden */
+}
+
+
+/* Styling af start quiz knap*/
+.box3 {
+    width: 300px;  /* Boksens bredde */
+    height: 75px; /* Boksens højde */
+    background-color: #FFFEF9; /* Boksens farve */
+    margin: 50px auto; /* Center the box */
+    text-align: center; /* Teksten placeres midt i boksen */
+    border:   4px solid #FFB68B;        /* Giver kanten grøn farve og px bestemmer kantens tykkelse  Fåt hjælp af denne side https://developer.mozilla.org/en-US/docs/Web/CSS/border */
+    color: #000000; /* Skrift farven */
+    border-radius: 30px;
+    font-size: 50px; /* Skrift størrelse */
+    margin-top: 100px; /* Placerer boksen længere nede, så der er mere luft til teksten ovenover */
+}

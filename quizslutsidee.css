@@ -1,0 +1,38 @@
+
+/* Styling af quiz overskrift */
+.quiztekstslutside{
+    font-size: 55px; /* Skrift størrelse */
+    font-family: "Tiro Bangla"; /* Font type */
+    margin-left: 130px;  /* Skubber teksten ind fra venstre side. Placeret hermed i venstre side */
+}
+
+
+/* Styling af 'Du bestod' tekst */
+.dubestodtekst{
+    font-size: 68px; /* Skrift størrelse */
+    font-family: "Tiro Bangla"; /* Font type */
+    text-align: center; /* Placerer teksten i midten af siden */
+}
+
+
+/* Styling af 'Stort tillykke' tekst */
+.storttillykketekst{
+    font-size: 58px; /* Skrift størrelse */
+    font-family: "Tiro Bangla"; /* Font type */
+    text-align: center; /* Placerer teksten i midten af siden */
+}
+
+
+/* Styling af prøv igen knap*/
+.box4 {
+    width: 260px;  /* Boksens bredde */
+    height: 65px; /* Boksens højde */
+    background-color: #FFFEF9; /* Boksens farve */
+    margin: 50px auto; /* Center the box */
+    text-align: center; /* Teksten placeres midt i boksen */
+    border:   4px solid #FFB68B;        /* Giver kanten grøn farve og px bestemmer kantens tykkelse  Fåt hjælp af denne side https://developer.mozilla.org/en-US/docs/Web/CSS/border */
+    color: #000000; /* Skrift farven */
+    border-radius: 30px;
+    font-size: 50px; /* Skrift størrelse */
+    margin-top: 100px; /* Placerer boksen længere nede, så der er mere luft til teksten ovenover */
+}
