@@ -1,0 +1,169 @@
+body{
+    background-color: #FFFCDF;
+}
+
+
+.Zealand{
+    font-size: 10vw;
+    background-color: #fff386;
+    padding: 20px 20px;text-align: center;
+}
+
+
+#Quiz{
+    padding: 4vw 20vw;
+    font-size: 50px;
+    color: #000000;
+    margin-left: 22vw;
+    border-radius: 40px;
+    border-color: #ffb68b;
+    border-width: 5px;
+    margin-top: 5vw;
+    border-style: outset;
+    width: 110px;
+}
+
+.rektor{
+    width: 75vw;
+    height: 65vw;
+    margin-left: 12vw;
+}
+
+.spørgsmål1{
+    font-size: 60px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex; /*Flex er en layoutmodel, der gør det nemt at justere, arrangere og fordele plads blandt elementer inden i containeren.*/
+    flex-wrap: wrap; /*hvis denne fjernes rykker knapperne sig*/
+    justify-content: space-between;
+    width: 100%; /* Eller en fast bredde efter behov */
+}
+
+.svar {
+    height: 25vw;
+    width: 45%; /* Så der er plads til to knapper ved siden af hinanden */
+    margin-top: 1.7%;
+    font-size: 7vw; /* Tilpasset tekststørrelse */
+    text-align: center; /* Centrerer teksten */
+    background-color: #ffffff; /* Baggrundsfarve på knappen */
+    color: #000000; /* Tekstfarve */
+    cursor: pointer;
+    border-color: #ffb68b;
+
+}
+
+.svar1{
+    height: 25vw;
+    width: 45%; /* Så der er plads til to knapper ved siden af hinanden */
+    margin-top: 1.7%;
+    font-size: 7vw; /* Tilpasset tekststørrelse */
+    text-align: center; /* Centrerer teksten */
+    background-color: #ffffff; /* Baggrundsfarve på knappen */
+    color: #000000; /* Tekstfarve */
+    padding: 10px;
+    cursor: pointer;
+    border-color: #ffb68b;
+}
+
+.svar:hover {
+    background-color: #ffb68b; /* Ændret baggrundsfarve ved hover */
+}
+
+/*de to koder for neden gør at når man trkker på det rigtige svar lyser den rød eller grøn*/
+.correct:hover {
+    background-color: #45a049; /* Ændret baggrundsfarve ved hover */
+}
+
+
+
+.container2 {
+    display: flex; /*Flex er en layoutmodel, der gør det nemt at justere, arrangere og fordele plads blandt elementer inden i containeren.*/
+    flex-wrap: wrap; /*hvis denne fjernes rykker knapperne sig*/
+    background-color: #fff386;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.fot {
+    height: 24vw;
+    width: 24vw; /* Så der er plads til to knapper ved siden af hinanden */
+    cursor: pointer;
+    border-color: #fff386;
+    background-color: #fff386;
+}
+
+.foto{
+    height: 24vw;
+    width: 26vw; /* Så der er plads til to knapper ved siden af hinanden */
+}
+
+
+.foto1{
+    height: 24vw;
+    width: 24vw; /* Så der er plads til to knapper ved siden af hinanden */
+}
+
+
+#næste{
+    font-size: 8vw;
+    background-color: white;
+    margin-left: 34vw;
+    margin-top: 5vw;
+    border-color: #ffb68b;
+    padding: 20px 30px;
+}
+
+
+/*--------------Ny kode til video siden ----------------------*/
+
+.guide{
+    font-size: 6vw;
+}
+
+.it{
+    font-size: 4vw;
+    padding-left: 5vw;
+}
+
+.video1{
+    padding-top: 3vw ;
+    padding-bottom: 8vw;
+    background-color: white;
+    border-radius: 5vw;
+}
+
+.video2{
+    margin-top: 5vw;
+    padding-top: 3vw ;
+    padding-bottom: 8vw;
+    background-color: white;
+    border-radius: 5vw;
+}
+
+.video{
+    padding-left: 5vw;
+}
+
+.ofte{
+    font-size: 6vw;
+}
+
+.spørgsmål1\.1{
+    padding-bottom: 8vw;
+    padding-top: 3vw;
+    background-color: white;
+    border-radius: 5vw;
+    padding-left: 5vw;
+}
+
+.spørgsmål1\.2{
+    padding-bottom: 8vw;
+    padding-top: 3vw;
+    background-color: white;
+    border-radius: 5vw;
+    padding-left: 5vw;
+    margin-top: 4vw;
+}
