@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Quiz</title>
+  <title>video</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="java.js"></script>
 </head>
 <body>
 
@@ -12,37 +13,88 @@
 </div>
 
 
-<div>
-  <p id="Quiz">
-    Quiz
+<p class="guide">
+  Video guides
+</p>
+
+
+
+<div class="video1">
+
+  <p class="it">
+    Guide 1:
+    Hvordan kontakter jeg IT?
+  </p>
+
+  <video width="900" height="500" controls class="video">
+    <source src="Fotos/Skærmoptagelse%202024-10-03%20kl.%2010.33.41.mov" type="video/mp4">
+  </video>
+</div>
+
+
+<div class="video2">
+
+  <p class="it">
+    Guide 1:
+    Hvordan finder jeg mit skema?
+  </p>
+
+  <video width="900" height="500" controls class="video" >
+    <source src="Fotos/skema.mov" type="video/mp4">
+  </video>
+</div>
+
+
+<div class="video2">
+
+  <p class="it">
+    Guide 1:
+    Hvordan bestiller jeg mit studiekort?
+  </p>
+
+  <video width="900" height="500" controls class="video" >
+    <source src="Fotos/studiekort.mov" type="video/mp4">
+  </video>
+</div>
+
+<div class="video2">
+
+  <p class="it">
+    Guide 1:
+    Hvordan ændre jeg min kode på moodle?
+  </p>
+
+  <video width="900" height="500" controls class="video" >
+    <source src="Fotos/kode.mov" type="video/mp4">
+  </video>
+</div>
+
+
+<p class="ofte">
+  Ofte stillede spørgsmål
+</p>
+
+
+<div class="spørgsmål1.1">
+
+  <p class="kode">
+    Hvordan ændre jeg min kode til moodle?
+  </p>
+</div>
+
+<div class="spørgsmål1.2">
+
+  <p class="kode">
+    Hvordan bruger man moodle?
   </p>
 </div>
 
 
-
-<div>
-  <h3 id="spørgsmål">Spørgsmål her</h3>
-  <img id="billede" src="Fotos/" alt="Quiz billede" style="max-width: 100%; height: auto;">
-  <div id="valgmuligheder">
-    <div class="valgmulighed" id="valgmulighed1" onclick="tjekSvar(0)">Valgmulighed 1</div>
-    <div class="valgmulighed" id="valgmulighed2" onclick="tjekSvar(1)">Valgmulighed 2</div>
-    <div class="valgmulighed" id="valgmulighed3" onclick="tjekSvar(2)">Valgmulighed 3</div>
-    <div class="valgmulighed" id="valgmulighed4" onclick="tjekSvar(3)">Valgmulighed 4</div>
-  </div>
-</div>
-
-<button id="næsteKnapp" onclick="næste()">Næste</button>
-
-
-
 <div class="container2">
-  <a class="fot" href="index.html"><img src="Fotos/?.png" alt="quiz" class="foto"></a>
-  <a class="fot" href="video.html"><img src="Fotos/play.png" alt="play" class="foto"></a>
+  <a class="fot" href="quiz.html"><img src="Fotos/%3F.png" alt="quiz" class="foto"></a>
+  <a class="fot" href="index.html"><img src="Fotos/play.png" alt="play" class="foto"></a>
   <a class="fot"><img src="Fotos/søg.png" alt="søg" class="foto1"></a>
 </div>
 
-
-
-<script src="java.js"></script>
 </body>
 </html>
