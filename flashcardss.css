@@ -1,20 +1,48 @@
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+body{
+    background-color: #FFFCDF;
+}
+
+/* Styling af Zealand boksen i toppen af siden*/
+.zealandbox {
+    font-size: 10vw;
+    background-color: #fff386;
+    padding: 20px 20px;text-align: center;
+}
+
+/* Styling af Quiz boksen med hvid baggrund og orange border*/
+.box10 {
+    width: 400px;  /* Boksens bredde */
+    height: 100px; /* Boksens højde */
+    background-color: #FFFEF9; /* Boksens farve */
+    margin: 50px auto; /* Center the box */
+    text-align: center; /* Teksten placeres midt i boksen */
+    border:   4px solid #FFB68B;        /* Giver kanten grøn farve og px bestemmer kantens tykkelse  Fåt hjælp af denne side https://developer.mozilla.org/en-US/docs/Web/CSS/border */
+    color: #000000; /* Skrift farven */
+    border-radius: 30px;
+    font-size: 60px; /* Skrift størrelse */
+    margin-top: 230px; /* Placerer boksen længere nede, så der er mere luft til boksen over */
+}
+
+
+/* The flip card container */
 .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    background-color: #FFFEF9; /* The flip card farve */
+    width: 500px; /* The flip card bredde */
+    height: 500px; /* The flip card højde */
+    perspective: 1000px; /* Giver 3D effect */
+    border:   4px solid #FFB68B;    /* Giver kanten orange farve & 4 px tyk  Fåt hjælp af denne side https://developer.mozilla.org/en-US/docs/Web/CSS/border */
+margin-top: 80px;
 }
 
 /* This container is needed to position the front and back side */
 .flip-card-inner {
-    position: relative;
+    position: relative; /* Bliver i samme position */
     width: 100%;
     height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+    text-align: center; /* Placerer teksten i midten */
+    transition: transform 0.8s; /* Flipcard vender */
+    transform-style: preserve-3d; /* 3D effekt */
+font-size: 40px;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -27,19 +55,61 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* Når dette fjernes spejlvendes teksten */
+    backface-visibility: hidden; /* Når dette fjernes spejlvendes teksten */
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-    background-color: #bbb;
-    color: black;
-}
 
-/* Style the back side */
+/* Styling af bagside */
 .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg);
+    background-color: #FFFEF9; /* Flipcard bagside farve (hvid)*/
+    color: black; /* Tekst farve (sort) */
+    transform: rotateY(180deg); /* Vender */
+    font-size: 50px; /* Skriftstørrelse */
+}
+
+
+/* Styling af Quiz boksen med hvid baggrund og orange border*/
+.box11 {
+    width: 300px;  /* Boksens bredde */
+    height: 70px; /* Boksens højde */
+    background-color: #FFFEF9; /* Boksens farve */
+    margin: 50px auto; /* Center the box */
+    text-align: center; /* Teksten placeres midt i boksen */
+    border:   4px solid #FFB68B;        /* Giver kanten grøn farve og px bestemmer kantens tykkelse  Fåt hjælp af denne side https://developer.mozilla.org/en-US/docs/Web/CSS/border */
+    color: #000000; /* Skrift farven */
+    border-radius: 30px;
+    font-size: 40px; /* Skrift størrelse */
+    margin-top: 230px; /* Placerer boksen længere nede, så der er mere luft til boksen over */
+}
+
+
+
+/* Styling af footer */
+.container2 {
+    display: flex; /*Flex er en layoutmodel, der gør det nemt at justere, arrangere og fordele plads blandt elementer inden i containeren.*/
+    flex-wrap: wrap; /*hvis denne fjernes rykker knapperne sig*/
+    background-color: #fff386;
+    justify-content: space-between;
+    margin-top: 46%;
+}
+
+
+.fot {
+    height: 24vw;
+    width: 24vw; /* Så der er plads til to knapper ved siden af hinanden */
+    cursor: pointer;
+    border-color: #fff386;
+    background-color: #fff386;
+}
+
+.foto{
+    height: 24vw;
+    width: 26vw; /* Så der er plads til to knapper ved siden af hinanden */
+}
+
+
+.foto1{
+    height: 24vw;
+    width: 24vw; /* Så der er plads til to knapper ved siden af hinanden */
 }

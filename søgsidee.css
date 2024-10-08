@@ -1,3 +1,6 @@
+body{
+    background-color: #FFFCDF;
+}
 
 /* Styling af Zealand boksen i toppen af siden*/
 .zealandbox {
@@ -7,38 +10,55 @@
 }
 
 
-/* Styling af søg feltet hvor man skriver */
-.search-button{
-        width: 300px; /* Adjust the width to make it bigger */
-        height: 70px; /* Adjust the height */
-        padding: 10px; /* Adds padding inside the box */
-        font-size: 16px; /* Makes the text larger */
-        border-radius: 5px; /* Rounds the corners of the box */
-        border: 2px solid #ccc; /* Adds a border */
-        box-sizing: border-box; /* Ensures padding is inside the box */
+/* Styling af  søg side/*
+ */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Styling af hvor man klikker for at søge (firkanten til højre for søgfeltet med et søg ikon i) */
-.search-button-icon{
-    width: 100px;
-    height: 80px;
-    background: #FFFEF9;
-    color: white;
-    cursor: pointer;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
 }
 
-.search-field{
-    width: 300px; /* Adjust the width to make it bigger */
-    height: 70px; /* Adjust the height */
+#searchbar {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+    box-sizing: border-box;
 }
 
-form.example button:hover {
-    background: #FFFEF9;
+#list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-/* Clear floats */
-form.example::after {
-    content: "";
-    clear: both;
-    display: table;
+.animals {
+    font-size: 1.2em;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.animals:last-child {
+    border-bottom: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

@@ -1,21 +1,17 @@
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+function search_animal() {
+    let input = document.getElementById('searchbar').value.toLowerCase();
+    let animals = document.getElementsByClassName('animals');
 
-function filterFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    div = document.getElementById("myDropdown");
-    a = div.getElementsByTagName("a");
-    for (i = 0; i < a.length; i++) {
-        txtValue = a[i].textContent || a[i].innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            a[i].style.display = "";
+    for (let i = 0; i < animals.length; i++) {
+        let animal = animals[i];
+        let description = animal.nextElementSibling; // Get the next sibling <p> tag
+
+        if (!animal.innerHTML.toLowerCase().includes(input)) {
+            animal.style.display = "none"; // Skjuler
+            description.style.display = "none"; // Skjuler p tag teksten
         } else {
-            a[i].style.display = "none";
+            animal.style.display = "list-item"; // Viser navnene/søg elementerne fra listen
+            description.style.display = "block"; // Vis teksten <p>
         }
     }
 }

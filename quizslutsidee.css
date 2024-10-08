@@ -1,3 +1,15 @@
+body{
+    background-color: #FFFCDF;
+}
+
+
+/* Styling af Zealand boksen i toppen af siden*/
+.zealandbox {
+    font-size: 10vw;
+    background-color: #fff386;
+    padding: 20px 20px;text-align: center;
+}
+
 
 /* Styling af quiz overskrift */
 .quiztekstslutside{
@@ -35,4 +47,34 @@
     border-radius: 30px;
     font-size: 50px; /* Skrift størrelse */
     margin-top: 100px; /* Placerer boksen længere nede, så der er mere luft til teksten ovenover */
+}
+
+
+/* Styling af footer */
+.container2 {
+    display: flex; /*Flex er en layoutmodel, der gør det nemt at justere, arrangere og fordele plads blandt elementer inden i containeren.*/
+    flex-wrap: wrap; /*hvis denne fjernes rykker knapperne sig*/
+    background-color: #fff386;
+    justify-content: space-between;
+    margin-top: 125%;
+}
+
+
+.fot {
+    height: 24vw;
+    width: 24vw; /* Så der er plads til to knapper ved siden af hinanden */
+    cursor: pointer;
+    border-color: #fff386;
+    background-color: #fff386;
+}
+
+.foto{
+    height: 24vw;
+    width: 26vw; /* Så der er plads til to knapper ved siden af hinanden */
+}
+
+
+.foto1{
+    height: 24vw;
+    width: 24vw; /* Så der er plads til to knapper ved siden af hinanden */
 }

@@ -14,17 +14,79 @@
     Zealand
 </div>
 
+   <!-- Fået hjælp fra nedenstående hjemmeside med søgfunktionen
+https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/  -->
+
+<div class="container">
+    <input id="searchbar"
+           onkeyup="search_animal()"
+           type="text" name="search"
+           placeholder="Søg her">          <!-- Teksten i søgfeltet -->
 
 
-<!-- Søg knappen: -->
-<!-- Søg ikonet. Fra font awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Liste med spørgsmål/søge ord og svarerne/tekst -->
+    <ul id='list'>
+        <li class="animals">Hvem er Rasmus?</li>
+        <p style="display: none;">Rasmus er Zealands rektor</p>
 
-<!-- Søg knappen -->
-<form class="search-field" action="action_page.php">
-  <input type="search" placeholder="Search.." name="search" class="search-input">
-  <button type="submit" class="search-button"><i class="search-button-icon"></i></button>
-</form>
+        <li class="animals">Hvor finder jeg mit skema</li>
+        <p style="display: none;"> Du finder dit skema i Timeedit</p>
+
+        <li class="animals">Hvor afleverer jeg min eksamen?</li>
+        <p style="display: none;"> Du afleverer din eksamen i Wiseflow</p>
+
+        <li class="animals">Parkeringsmuligheder</li>
+        <p style="display: none;">Der er parkeringsmuligheder på alle Zealands afdelinger</p>
+
+        <li class="animals">DSR</li>
+        <p style="display: none;">DSR er de studerendes råd</p>
+
+        <li class="animals">Hvilken dag er der workshops/labs</li>
+        <p style="display: none;">Der er workshops/labs på alle afdelinger hver onsdag</p>
+
+        <li class="animals">Fredagsbar</li>
+        <p style="display: none;"> Der er fredagsbarer på Zealands afdelingerne et par fredage om måneden. Køges fredagsbar hedder Cheers. Roskildes fredagsbar hedder Zoo.Slagelses fredagsbar hedder Bunkeren.</p>
+
+
+        <li class="animals">Studiekort</li>
+        <p style="display: none;">Du kan bestille dit studiekort på moodle. Når studiekortet er klar, kan du hente det i front desk</p>
+
+        <li class="animals">Studieleder / Annette
+            Finnsdottir </li>
+        <p style="display: none;">Zealands studieleder er Annette Finnsdottir</p>
+
+        <li class="animals">IT</li>
+        <p style="display: none;">IT er placeret på alle afdelinger, hvor man altid kan finde dem og få hjælp til sine IT spørgsmål. Man kan også kontakte IT på helpdesk@
+            zealand.dk</p>
+
+        <li class="animals">Takeower på Zealands Instagram</li>
+        <p style="display: none;">Hvis du er interesseret i at lave en takeover på Zealands instagram, skal du kontakte Signe. </p>
+
+        <li class="animals">Registrering af bil</li>
+        <p style="display: none;">Du kan registrerer din bil på Moodle. Der er også en tablet i entreerne til afdelingerne, hvor man kan registrerer ens bil. Hvis ikke man har registreret sin bil, kan der forekomme en bøde </p>
+
+        <li class="animals">Skolens printere</li>
+        <p style="display: none;">Du kan printe på skolens printere ved at scanne dit studiekort</p>
+
+        <li class="animals">Årgangsrum</li>
+        <p style="display: none;">På Moodle kan du finde dit årgangsrum, som indeholder al den nødvendige information </p>
+
+        <li class="animals">Mega Space / Fat Lab</li>
+        <p style="display: none;">Mega Space også kaldt Fat Lab er de kreative rum, som Zealand besidder. I rummene, kan man 3D printe, printe t-shirt og meget mere. Det er Henrik Mikkelsen, også kaldt Hemi, som er er ansvarlig for rummene.  </p>
+
+        <li class="animals">Podcast</li>
+                <p style="display: none;">Zealands udarbejder i samarbejde med elever podcasts. Dette foregår på Køge afdelingen. Ved aftale med Sten, må man låne/benytte podcast rummet til privat forbrug.</p>
+
+        <li class="animals">Nikotinfri?</li>
+               <p style="display: none;">Zealands er ikke en nikotinfri skole, men man må ikke ryge indenfor</p>
+
+         <li class="animals">Studiestartspøven</li>
+         <p style="display: none;">Når du er startet på din uddannelse hos Zealand, skal du tage studiestartsprøven. Tag vores quiz og var 100% forberedt</p>
+
+    </ul>
+</div>
+
+<script src="./nysøgsideee.js"></script>
 
 </body>
 </html>
